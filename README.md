@@ -147,9 +147,9 @@ extterritories
 The project includes a **single-page Executive Overview Dashboard** designed for leadership-level decision making.
 
 📸 **Dashboard Screenshot:**
-```
+
 powerbi/screenshots/executive_dashboard.png
-```
+
 
 ### What was built?
 - Connected to Azure Synapse Serverless SQL
