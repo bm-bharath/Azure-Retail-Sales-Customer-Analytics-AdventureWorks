@@ -9,6 +9,7 @@ This project demonstrates how raw retail data can be dynamically ingested, trans
 ## 🚀 Project Architecture Overview
 
 **High-level Data Flow**
+![Project Architecture Overview](azure_medallion_architecture.png)
 
 GitHub (Retail CSV Files)  
 → Azure Data Factory (Dynamic Ingestion)  
