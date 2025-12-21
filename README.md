@@ -23,6 +23,15 @@ GitHub (Retail CSV Files)
 
 ## 🟤 Bronze Layer – Raw Data Ingestion
 
+**ADF Assets Location (Repo):**
+```
+datafactory/
+  ├── pipelines/
+  └── parameters/
+      └── git.json
+```
+
+
 **Technology:** Azure Data Factory + Azure Data Lake Storage Gen2
 
 ### What happens in Bronze?
@@ -133,12 +142,25 @@ extterritories
 
 **Technology:** Power BI Desktop
 
+### Executive Dashboard
+
+The project includes a **single-page Executive Overview Dashboard** designed for leadership-level decision making.
+
+📸 **Dashboard Screenshot:**
+```
+powerbi/screenshots/executive_dashboard.png
+```
+
 ### What was built?
 - Connected to Azure Synapse Serverless SQL
 - Imported Gold Views
 - Created a star-schema data model
 - Developed reusable **DAX measures**
 - Designed a **single-page executive dashboard**
+
+
+**Technology:** Power BI Desktop
+
 
 ### Key KPIs
 - Total Sales
@@ -171,8 +193,11 @@ Azure-Retail-Sales-Customer-Analytics-AdventureWorks
 ├── README.md
 ├── azure_medallion_architecture.png
 │
-├── adf/
-│   └── pipeline_overview.png
+├── datafactory/
+│   ├── pipelines/
+│   │   └── DynamicGitToRaw.png
+│   └── parameters/
+│       └── git.json
 │
 ├── databricks/
 │   └── silver_layer_transformation.ipynb
@@ -183,16 +208,14 @@ Azure-Retail-Sales-Customer-Analytics-AdventureWorks
 │   └── Create_View_Gold.sql
 │
 ├── powerbi/
-│   ├── dashboard.png
-│   └── dax_measures.txt
-│
-├── parameter/
-│   └── git.json
+│   ├── AdventureWorks_Executive_Dashboard.pbix
+│   ├── measures_dax.txt
+│   └── screenshots/
+│       └── executive_dashboard.png
 ```
 
----
 
-## 🎯 Key Learnings
+---
 
 - Implemented real-world Azure Medallion Architecture
 - Built dynamic and parameterized ADF pipelines
@@ -205,5 +228,5 @@ Azure-Retail-Sales-Customer-Analytics-AdventureWorks
 ## 👤 Author
 
 **B M Bharath**  
-Azure Data Engineering & Analytics Project
+
 
