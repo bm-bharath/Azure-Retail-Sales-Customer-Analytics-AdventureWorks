@@ -148,7 +148,7 @@ The project includes a **single-page Executive Overview Dashboard** designed for
 
 📸 **Dashboard Screenshot:**
 
-powerbi/screenshots/executive_dashboard.png
+![Executive Dashboard](powerbi/screenshots/executive_dashboard.png)
 
 
 ### What was built?
